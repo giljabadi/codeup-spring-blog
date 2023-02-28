@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" lang="en">
-<head th:replace="partials/partials.html :: head('Welcome')"></head>
+<head th:replace="partials/partials.html :: head('5xx Error')"></head>
 <body>
 <nav th:replace="partials/partials.html :: nav"></nav>
-<header th:replace="partials/partials.html :: header('Welcome to the Spring Blog')"></header>
+<header th:replace="partials/partials.html :: header('Something went wrong...')"></header>
 <main class="container">
-    ...
+  <h1 class="display-1 text-center">500 Error :(</h1>
 </main>
-<footer th:replace="partials/partials.html :: footer"></footer>
 <th:block th:replace="partials/partials.html :: scripts"></th:block>
 </body>
 </html>

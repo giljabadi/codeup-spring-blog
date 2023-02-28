@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8" />
-  <title>Join</title>
+    <meta charset="UTF-8">
+    <title>Join</title>
 </head>
 <body>
 
-<h1 th:text="${cohort}"></h1>
+    <h1 th:text="${cohort}"></h1>
 
-<form action="/join" method="post">
-  <input type="text" name="cohort" id="cohort-ip" class="field" />
-  <button>Join now</button>
-</form>
+    <form action="/join" method="post">
+        <input type="text" name="cohort" id="cohort_id" class="field" />
+        <button type="submit">Join Now</button>
+    </form>
+
+
+
+
+
+
+
 
 </body>
 </html>
